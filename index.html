@@ -51,7 +51,16 @@
             </div>
         </div>
     </nav>
-    
+    <script>
+      const bMore = document.querySelector("#bMore");
+      const links = document.querySelector("#links");
+
+
+      bMore.addEventListener("click", (e) => {
+         links.classList.toggle("collapsed");
+      });
+
+  </script>
 
     <section class="contenedor">
         <h1 class="titulo">Bienvenidos<br>a mi sitio</h1>
